@@ -1,9 +1,14 @@
-#- clean: ['~']
+- shell:
+  - mkdir -p ~/.zsh.d
+  - mkdir -p ~/.zsh_themes/powerlevel9k
 
 - link:
     ~/.zshrc: zsh/zshrc
-    ~/.zsh.d/exports.zsh: zsh/exports.zsh
-    ~/.zsh.d/prompt.zsh: zsh/prompt.zsh
+    ~/.zsh.d:
+      glob: true
+      path: zsh/zsh.d/*
+    ~/.zsh_themes/powerlevel9k/powerlevel9k.zsh-theme: 
+      glob: true
+      path: libs/github/powerlevel9k/powerlevel9k.zsh-theme
+    ~/.aliases: misc/aliases
 
-#- shell:
-#  - [git submodule update --init --recursive, Installing submodules]
