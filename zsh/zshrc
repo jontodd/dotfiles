@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh
+
+test -r $HOME/.aliases && source $HOME/.aliases
+
+for i in $HOME/.zsh.d/*; do;
+    test -r "$i" && source "$i"
+done

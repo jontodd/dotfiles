@@ -1,0 +1,9 @@
+#- clean: ['~']
+
+- link:
+    ~/.zshrc: zsh/zshrc
+    ~/.zsh.d/exports.zsh: zsh/exports.zsh
+    ~/.zsh.d/prompt.zsh: zsh/prompt.zsh
+
+#- shell:
+#  - [git submodule update --init --recursive, Installing submodules]

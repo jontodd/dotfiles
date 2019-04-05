@@ -1,3 +1,8 @@
 [submodule "libs/github/dotbot"]
 	path = libs/github/dotbot
-	url = https://github.com/csivanich/dotbot.git
+	url = https://github.com/jontodd/dotbot.git
+	branch = master
+[submodule "libs/github/powerlevel9k"]
+	path = libs/github/powerlevel9k
+	url = https://github.com/bhilburn/powerlevel9k.git
+	branch = master
