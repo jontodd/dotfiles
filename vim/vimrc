@@ -1,5 +1,9 @@
 " ###################################################################
 " Personal settings
 " ###################################################################
-syntax on
 
+" NOTE: I'm using the sensible.vim plugin as a baseline for personal setting
+" like synax highlighting, indenting etc.
+
+" Kickoff pathogen to load additional vim bundles in the ~/.vim/bundle dir
+execute pathogen#infect()

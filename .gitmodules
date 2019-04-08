@@ -6,3 +6,12 @@
 	path = libs/github/powerlevel9k
 	url = https://github.com/bhilburn/powerlevel9k.git
 	branch = master
+[submodule "libs/github/vim-nerdtree"]
+	path = libs/github/vim-nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "libs/github/vim-pathogen"]
+	path = libs/github/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+[submodule "libs/github/vim-sensible"]
+	path = libs/github/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git

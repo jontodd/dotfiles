@@ -13,4 +13,5 @@
       path: libs/github/powerlevel9k/powerlevel9k.zsh-theme
     ~/.aliases: misc/aliases
     ~/.vimrc: vim/vimrc
+    ~/.vim: vim/vim
 

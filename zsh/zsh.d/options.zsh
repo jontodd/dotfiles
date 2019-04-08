@@ -1,6 +1,5 @@
 
 # history
-set -x
 export HISTSIZE=1000
 export SAVEHIST=1000
 export HISTFILE="${HOME}/.zsh/.history"
@@ -13,5 +12,3 @@ setopt HIST_IGNORE_ALL_DUPS
 
 unsetopt HIST_BEEP
 unsetopt EXTENDED_HISTORY
-
-set +x
